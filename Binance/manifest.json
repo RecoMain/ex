@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Binance",
+    "description": "Binance",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/binance.png",
+        "48": "icons/binance.png",
+        "64": "icons/binance.png",
+        "128": "icons/binance.png"
+      },
+    "content_scripts": [
+        {
+          "matches": ["https://www.binance.com/*"],
+          "js": ["script.js", "api.js"],
+          "css": ["styles.css"]
+        }
+      ],
+    "permissions": [
+        "tabs"
+    ]
+  }

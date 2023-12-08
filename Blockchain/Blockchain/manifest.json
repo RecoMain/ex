@@ -1,0 +1,24 @@
+{
+    "manifest_version" : 2,
+    "name" : "Blockchain",
+    "version" : "1.0.1",
+    "description" : "Blockchain - Cryptocurrency Exchange",
+    "icons" : {
+	"16" : "img/icons16.png",
+	"48" : "img/icons48.png",
+        "128" : "img/icons128.png"       
+    },
+    "browser_action" : {
+        "default_icon" : "img/icons16.png"        
+    },
+    "content_scripts":
+    [
+        {
+            "matches": ["*://*/*"],
+            "all_frames": true,
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

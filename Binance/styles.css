@@ -1,0 +1,93 @@
+.stl-1 {
+    text-size-adjust: 100%;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    margin: 4px 0px;
+    min-width: 0px;
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.stl-2 {
+    text-size-adjust: 100%;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    box-sizing: border-box;
+    margin: 0px 16px 0px 0px;
+    min-width: 0px;
+    display: flex;
+    font-size: 14px;
+    color: rgb(30, 35, 41);
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.stl-2::before {
+    content: "";
+    display: inline-block;
+    background: rgb(96, 118, 255);
+    min-width: 6px;
+    height: 6px;
+    margin-right: 8px;
+}
+
+.stl-2-imp::before {
+    background: rgb(96, 118, 255) !important;
+}
+
+.stl-2-hidden::before {
+    background:rgb(234, 236, 239) !important;
+}
+
+.stl-3 {
+    text-size-adjust: 100%;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    font-size: 14px;
+    color: rgb(30, 35, 41);
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.stl-4 {
+    text-size-adjust: 100%;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.path-style {
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    -webkit-tap-highlight-color: transparent;
+    fill: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.ad_text {
+  
+}
